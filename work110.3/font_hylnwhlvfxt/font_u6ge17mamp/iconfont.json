@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "109719",
+      "name": "browser",
+      "font_class": "browser",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1166120",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    }
+  ]
+}
