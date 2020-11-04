@@ -2,9 +2,13 @@ $(function(){
     $('.head>ul>li').mouseenter(function(){
         $(this).children('.msg').css('display','block')
         .end().siblings().children('.msg').css('display','none')
+    }).mouseleave(function(){
+        $(this).children('.msg').css('display','none')
     }).eq(2).mouseenter(function(){
         $(this).children('.msg2').css('display','flex')
         .end().siblings().children('.msg').css('display','none')
+    }).mouseleave(function(){
+        $(this).children('.msg').css('display','none')
     })
     $('.scroll').find('li').css({
         backgroundImage:function(i,v){
